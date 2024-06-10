@@ -417,9 +417,9 @@
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockSmallHydrogenThrust</SubtypeId>
+                <SubtypeId>SmallBlockSmallHydrogenThrustEnhanced</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Block_SmallHydrogenThrust</DisplayName>
+            <DisplayName>Enhanced Hydrogen Thruster</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterSmall.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
             <CubeSize>Small</CubeSize>
@@ -464,13 +464,13 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>HydrogenThrust</BlockPairName>
+            <BlockPairName>HydrogenThrustEnhanced</BlockPairName>
             <Center x="0" y="0" z="0" />
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>10</BuildTimeSeconds>
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>98400</ForceMagnitude>
+            <ForceMagnitude>127920</ForceMagnitude>
             <FuelConverter>
                 <FuelId>
                     <TypeId>GasProperties</TypeId>
@@ -520,9 +520,9 @@
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockSmallHydrogenThrust</SubtypeId>
+                <SubtypeId>LargeBlockSmallHydrogenThrustEnhanced</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Block_SmallHydrogenThrust</DisplayName>
+            <DisplayName>Enhanced Hydrogen Thruster</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterSmall.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
             <CubeSize>Large</CubeSize>
@@ -567,13 +567,13 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>HydrogenThrust</BlockPairName>
+            <BlockPairName>HydrogenThrustEnhanced</BlockPairName>
             <Center x="0" y="0" z="0" />
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>40</BuildTimeSeconds>
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>1080000</ForceMagnitude>
+            <ForceMagnitude>1404000</ForceMagnitude>
             <SlowdownFactor>1</SlowdownFactor>
             <FuelConverter>
                 <FuelId>
@@ -623,9 +623,9 @@
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockLargeHydrogenThrust</SubtypeId>
+                <SubtypeId>SmallBlockLargeHydrogenThrustEnhanced</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Block_LargeHydrogenThrust</DisplayName>
+            <DisplayName>Enhanced Large Hydrogen Thruster</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
             <CubeSize>Small</CubeSize>
@@ -672,7 +672,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeHydrogenThrust</BlockPairName>
+            <BlockPairName>LargeHydrogenThrustEnhanced</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -687,7 +687,7 @@
             <MaxPowerConsumption>0.6</MaxPowerConsumption>
             <MinPowerConsumption>0.000000001</MinPowerConsumption>
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>480000</ForceMagnitude>
+            <ForceMagnitude>624000</ForceMagnitude>
             <SlowdownFactor>1</SlowdownFactor>
             <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
             <FlameLengthScale>1.15</FlameLengthScale>
@@ -728,7 +728,7 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LargeBlockLargeHydrogenThrust</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Block_LargeHydrogenThrust</DisplayName>
+            <DisplayName>Enhanced Large Hydrogen Thruster</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
             <CubeSize>Large</CubeSize>
@@ -775,7 +775,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeHydrogenThrust</BlockPairName>
+            <BlockPairName>LargeHydrogenThrustEnhanced</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -790,7 +790,7 @@
             <MaxPowerConsumption>7.5</MaxPowerConsumption>
             <MinPowerConsumption>0.000000001</MinPowerConsumption>
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>7200000</ForceMagnitude>
+            <ForceMagnitude>9360000</ForceMagnitude>
             <SlowdownFactor>1</SlowdownFactor>
             <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
             <FlameLengthScale>1.15</FlameLengthScale>
