@@ -1,0 +1,458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+        <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+            <Id>
+                <TypeId>Drill</TypeId>
+                <SubtypeId>SmallBlockDrillEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>Enhanced Drill</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\drill.dds</Icon>
+            <Description>Description_Drill</Description>
+            <CubeSize>Small</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="3" z="6" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\driller.mwm</Model>
+            <PlaceDecals>false</PlaceDecals>
+            <UseModelIntersection>true</UseModelIntersection>
+            <Components>
+                <Component Subtype="SteelPlate" Count="40" />
+                <Component Subtype="Construction" Count="60" />
+                <Component Subtype="LargeTube" Count="8" />
+                <Component Subtype="Motor" Count="2" />
+                <Component Subtype="Computer" Count="2" />
+                <Component Subtype="SteelPlate" Count="24" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <Center x="1" y="1" z="5" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="1" EndX="3" EndY="2" Default="true" />
+                <MountPoint Side="Right" StartX="0" StartY="1" EndX="2" EndY="2" />
+                <MountPoint Side="Left" StartX="4" StartY="1" EndX="6" EndY="2" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\DrillerConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\DrillerConstruction_2.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0.01</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>DrillEnhanced</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>30</BuildTimeSeconds>
+
+            <ResourceSinkGroup>Defense</ResourceSinkGroup>
+            <SensorRadius>1.8</SensorRadius>
+            <SensorOffset>0.8</SensorOffset>
+            <CutOutRadius>1.8</CutOutRadius>
+            <CutOutOffset>0.6</CutOutOffset>
+            <ParticleOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1.45</Z>
+            </ParticleOffset>
+
+            <DeformationRatio>0.2</DeformationRatio>
+            <UsesDeformation>false</UsesDeformation>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <PrimarySound>ToolShipDrillIdle</PrimarySound>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>190</PCU>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+            <Id>
+                <TypeId>Drill</TypeId>
+                <SubtypeId>LargeBlockDrillEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>Enhanced Drill</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\drill.dds</Icon>
+            <Description>Description_Drill</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="3" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\drill.mwm</Model>
+            <PlaceDecals>false</PlaceDecals>
+            <UseModelIntersection>true</UseModelIntersection>
+            <UsesDeformation>false</UsesDeformation>
+            <Components>
+                <Component Subtype="SteelPlate" Count="360" />
+                <Component Subtype="Construction" Count="80" />
+                <Component Subtype="LargeTube" Count="24" />
+                <Component Subtype="Motor" Count="10" />
+                <Component Subtype="Computer" Count="10" />
+                <Component Subtype="SteelPlate" Count="240" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="2" EndX="1" EndY="3" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="2" StartY="0" EndX="3" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\DrillConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\DrillConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DrillConstruction_3.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0.01</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>DrillEnhanced</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>40</BuildTimeSeconds>
+            <Center x="0" y="0" z="2" />
+
+            <ResourceSinkGroup>Defense</ResourceSinkGroup>
+            <SensorRadius>2.5</SensorRadius>
+            <SensorOffset>2.8</SensorOffset>
+            <CutOutRadius>2.5</CutOutRadius>
+            <CutOutOffset>2.8</CutOutOffset>
+            <ParticleOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-3.6</Z>
+            </ParticleOffset>
+
+            <DeformationRatio>0.2</DeformationRatio>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <PrimarySound>ToolShipDrillIdle</PrimarySound>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>190</PCU>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+            <Id>
+                <TypeId>Drill</TypeId>
+                <SubtypeId>SmallBlockDrillProficient</SubtypeId>
+            </Id>
+            <DisplayName>Proficient Drill</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\drill.dds</Icon>
+            <Description>Description_Drill</Description>
+            <CubeSize>Small</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="3" z="6" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\driller.mwm</Model>
+            <PlaceDecals>false</PlaceDecals>
+            <UseModelIntersection>true</UseModelIntersection>
+            <Components>
+                <Component Subtype="SteelPlate" Count="80" />
+                <Component Subtype="Construction" Count="120" />
+                <Component Subtype="LargeTube" Count="16" />
+                <Component Subtype="Motor" Count="4" />
+                <Component Subtype="Computer" Count="4" />
+                <Component Subtype="SteelPlate" Count="48" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <Center x="1" y="1" z="5" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="1" EndX="3" EndY="2" Default="true" />
+                <MountPoint Side="Right" StartX="0" StartY="1" EndX="2" EndY="2" />
+                <MountPoint Side="Left" StartX="4" StartY="1" EndX="6" EndY="2" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\DrillerConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\DrillerConstruction_2.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0.01</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>DrillProficient</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>50</BuildTimeSeconds>
+
+            <ResourceSinkGroup>Defense</ResourceSinkGroup>
+            <SensorRadius>2.3</SensorRadius>
+            <SensorOffset>0.8</SensorOffset>
+            <CutOutRadius>2.3</CutOutRadius>
+            <CutOutOffset>0.6</CutOutOffset>
+            <ParticleOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1.45</Z>
+            </ParticleOffset>
+
+            <DeformationRatio>0.2</DeformationRatio>
+            <UsesDeformation>false</UsesDeformation>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <PrimarySound>ToolShipDrillIdle</PrimarySound>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>190</PCU>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+            <Id>
+                <TypeId>Drill</TypeId>
+                <SubtypeId>LargeBlockDrillProficient</SubtypeId>
+            </Id>
+            <DisplayName>Proficient Drill</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\drill.dds</Icon>
+            <Description>Description_Drill</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="3" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\drill.mwm</Model>
+            <PlaceDecals>false</PlaceDecals>
+            <UseModelIntersection>true</UseModelIntersection>
+            <UsesDeformation>false</UsesDeformation>
+            <Components>
+                <Component Subtype="SteelPlate" Count="720" />
+                <Component Subtype="Construction" Count="160" />
+                <Component Subtype="LargeTube" Count="48" />
+                <Component Subtype="Motor" Count="20" />
+                <Component Subtype="Computer" Count="20" />
+                <Component Subtype="SteelPlate" Count="480" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="2" EndX="1" EndY="3" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="2" StartY="0" EndX="3" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\DrillConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\DrillConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DrillConstruction_3.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0.01</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>DrillProficient</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>60</BuildTimeSeconds>
+            <Center x="0" y="0" z="2" />
+
+            <ResourceSinkGroup>Defense</ResourceSinkGroup>
+            <SensorRadius>3.1</SensorRadius>
+            <SensorOffset>2.8</SensorOffset>
+            <CutOutRadius>3.1</CutOutRadius>
+            <CutOutOffset>2.8</CutOutOffset>
+            <ParticleOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-3.6</Z>
+            </ParticleOffset>
+
+            <DeformationRatio>0.2</DeformationRatio>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <PrimarySound>ToolShipDrillIdle</PrimarySound>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>190</PCU>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+            <Id>
+                <TypeId>Drill</TypeId>
+                <SubtypeId>SmallBlockDrillElite</SubtypeId>
+            </Id>
+            <DisplayName>Elite Drill</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\drill.dds</Icon>
+            <Description>Description_Drill</Description>
+            <CubeSize>Small</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="3" z="6" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\driller.mwm</Model>
+            <PlaceDecals>false</PlaceDecals>
+            <UseModelIntersection>true</UseModelIntersection>
+            <Components>
+                <Component Subtype="SteelPlate" Count="160" />
+                <Component Subtype="Construction" Count="240" />
+                <Component Subtype="LargeTube" Count="32" />
+                <Component Subtype="Motor" Count="8" />
+                <Component Subtype="Computer" Count="8" />
+                <Component Subtype="SteelPlate" Count="96" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <Center x="1" y="1" z="5" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="1" EndX="3" EndY="2" Default="true" />
+                <MountPoint Side="Right" StartX="0" StartY="1" EndX="2" EndY="2" />
+                <MountPoint Side="Left" StartX="4" StartY="1" EndX="6" EndY="2" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\DrillerConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\DrillerConstruction_2.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0.01</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>DrillElite</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>60</BuildTimeSeconds>
+
+            <ResourceSinkGroup>Defense</ResourceSinkGroup>
+            <SensorRadius>2.8</SensorRadius>
+            <SensorOffset>0.8</SensorOffset>
+            <CutOutRadius>2.8</CutOutRadius>
+            <CutOutOffset>0.6</CutOutOffset>
+            <ParticleOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1.45</Z>
+            </ParticleOffset>
+
+            <DeformationRatio>0.2</DeformationRatio>
+            <UsesDeformation>false</UsesDeformation>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <PrimarySound>ToolShipDrillIdle</PrimarySound>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>190</PCU>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+            <Id>
+                <TypeId>Drill</TypeId>
+                <SubtypeId>LargeBlockDrillElite</SubtypeId>
+            </Id>
+            <DisplayName>Elite Drill</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\drill.dds</Icon>
+            <Description>Description_Drill</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="3" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\drill.mwm</Model>
+            <PlaceDecals>false</PlaceDecals>
+            <UseModelIntersection>true</UseModelIntersection>
+            <UsesDeformation>false</UsesDeformation>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1440" />
+                <Component Subtype="Construction" Count="320" />
+                <Component Subtype="LargeTube" Count="96" />
+                <Component Subtype="Motor" Count="40" />
+                <Component Subtype="Computer" Count="40" />
+                <Component Subtype="SteelPlate" Count="960" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="2" EndX="1" EndY="3" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="2" StartY="0" EndX="3" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\DrillConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\DrillConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DrillConstruction_3.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0.01</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>DrillElite</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>70</BuildTimeSeconds>
+            <Center x="0" y="0" z="2" />
+
+            <ResourceSinkGroup>Defense</ResourceSinkGroup>
+            <SensorRadius>3.7</SensorRadius>
+            <SensorOffset>2.8</SensorOffset>
+            <CutOutRadius>3.7</CutOutRadius>
+            <CutOutOffset>2.8</CutOutOffset>
+            <ParticleOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-3.6</Z>
+            </ParticleOffset>
+
+            <DeformationRatio>0.2</DeformationRatio>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <PrimarySound>ToolShipDrillIdle</PrimarySound>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>190</PCU>
+        </Definition>
+	</CubeBlocks>
+</Definitions>
