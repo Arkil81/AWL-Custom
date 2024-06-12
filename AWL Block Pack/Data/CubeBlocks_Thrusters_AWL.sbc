@@ -833,9 +833,9 @@
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockSmallAtmosphericThrust</SubtypeId>
+                <SubtypeId>SmallBlockSmallAtmosphericThrustEnhanced</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Block_SmallAtmoThrust</DisplayName>
+            <DisplayName>Enhanced Atmospheric Thruster</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\AtmosphericThrusterSmall.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
             <CubeSize>Small</CubeSize>
@@ -880,14 +880,14 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrust</BlockPairName>
+            <BlockPairName>SmallAtmoThrustEnhanced</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>10</BuildTimeSeconds>
             <EdgeType>Light</EdgeType>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>96000</ForceMagnitude>
+            <ForceMagnitude>124800</ForceMagnitude>
             <MaxPowerConsumption>0.600</MaxPowerConsumption>
             <MinPowerConsumption>0.000002</MinPowerConsumption>
             <SlowdownFactor>1</SlowdownFactor>
@@ -945,9 +945,9 @@
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockSmallAtmosphericThrust</SubtypeId>
+                <SubtypeId>LargeBlockSmallAtmosphericThrustEnhanced</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Block_SmallAtmoThrust</DisplayName>
+            <DisplayName>Enhanced Atmospheric Thruster</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\AtmosphericThrusterSmall.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
             <CubeSize>Large</CubeSize>
@@ -992,7 +992,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrust</BlockPairName>
+            <BlockPairName>SmallAtmoThrustEnhanced</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
@@ -1000,7 +1000,7 @@
             <BuildTimeSeconds>40</BuildTimeSeconds>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>648000</ForceMagnitude>
+            <ForceMagnitude>842400</ForceMagnitude>
             <MaxPowerConsumption>2.4</MaxPowerConsumption>
             <MinPowerConsumption>0.000002</MinPowerConsumption>
             <SlowdownFactor>1</SlowdownFactor>
@@ -1056,9 +1056,9 @@
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockLargeAtmosphericThrust</SubtypeId>
+                <SubtypeId>SmallBlockLargeAtmosphericThrustEnhanced</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Block_LargeAtmoThrust</DisplayName>
+            <DisplayName>Enhanced Large Atmospheric Thruster</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\AtmosphericThrusterLargeLarge.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
             <CubeSize>Small</CubeSize>
@@ -1102,7 +1102,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrust</BlockPairName>
+            <BlockPairName>LargeAtmoThrustEnhanced</BlockPairName>
             <Center x="1" y="1" z="2" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -1110,7 +1110,7 @@
             <BuildTimeSeconds>20</BuildTimeSeconds>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>576000</ForceMagnitude>
+            <ForceMagnitude>748800</ForceMagnitude>
             <MaxPowerConsumption>2.4</MaxPowerConsumption>
             <MinPowerConsumption>0.000002</MinPowerConsumption>
             <SlowdownFactor>1</SlowdownFactor>
@@ -1167,9 +1167,9 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockLargeAtmosphericThrust</SubtypeId>
+                <SubtypeId>LargeBlockLargeAtmosphericThrustEnhanced</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Block_LargeAtmoThrust</DisplayName>
+            <DisplayName>Enhanced Large Atmospheric Thruster</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\AtmosphericThrusterLargeLarge.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
             <CubeSize>Large</CubeSize>
@@ -1213,14 +1213,14 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrust</BlockPairName>
+            <BlockPairName>LargeAtmoThrustEnhanced</BlockPairName>
             <Center x="1" y="1" z="2" />
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>90</BuildTimeSeconds>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>6480000</ForceMagnitude>
+            <ForceMagnitude>8424000</ForceMagnitude>
             <MaxPowerConsumption>16.8</MaxPowerConsumption>
             <MinPowerConsumption>0.000002</MinPowerConsumption>
             <SlowdownFactor>1</SlowdownFactor>
@@ -1279,9 +1279,9 @@
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockSmallFlatAtmosphericThrust</SubtypeId>
+                <SubtypeId>SmallBlockSmallFlatAtmosphericThrustEnhanced</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Block_SmallAtmoThrustFlat</DisplayName>
+            <DisplayName>Enhanced Flat Atmospheric Thruster</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\SmallFlatAtmosphericThrusterSmall.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
             <CubeSize>Small</CubeSize>
@@ -1330,14 +1330,14 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrustFlat</BlockPairName>
+            <BlockPairName>SmallAtmoThrustFlatEnhanced</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>8</BuildTimeSeconds>
             <EdgeType>Light</EdgeType>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>32000</ForceMagnitude>
+            <ForceMagnitude>41600</ForceMagnitude>
             <MaxPowerConsumption>0.200</MaxPowerConsumption>
             <MinPowerConsumption>0.000002</MinPowerConsumption>
             <SlowdownFactor>1</SlowdownFactor>
@@ -1395,9 +1395,9 @@
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockSmallFlatAtmosphericThrust</SubtypeId>
+                <SubtypeId>LargeBlockSmallFlatAtmosphericThrustEnhanced</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Block_SmallAtmoThrustFlat</DisplayName>
+            <DisplayName>Enhanced Flat Atmospheric Thruster</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\LargeFlatAtmosphericThrusterSmall.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
             <CubeSize>Large</CubeSize>
@@ -1447,14 +1447,14 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrustFlat</BlockPairName>
+            <BlockPairName>SmallAtmoThrustFlatEnhanced</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>25</BuildTimeSeconds>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>200000</ForceMagnitude>
+            <ForceMagnitude>260000</ForceMagnitude>
             <MaxPowerConsumption>0.8</MaxPowerConsumption>
             <MinPowerConsumption>0.000002</MinPowerConsumption>
             <SlowdownFactor>1</SlowdownFactor>
@@ -1510,9 +1510,9 @@
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockLargeFlatAtmosphericThrust</SubtypeId>
+                <SubtypeId>SmallBlockLargeFlatAtmosphericThrustEnhanced</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Block_LargeAtmoThrustFlat</DisplayName>
+            <DisplayName>Enhanced Large Flat Atmospheric Thruster</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\LargeFlatAtmosphericThrusterSmall.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
             <CubeSize>Small</CubeSize>
@@ -1560,7 +1560,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrustFlat</BlockPairName>
+            <BlockPairName>LargeAtmoThrustFlatEnhanced</BlockPairName>
             <Center x="1" y="1" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -1568,7 +1568,7 @@
             <BuildTimeSeconds>15</BuildTimeSeconds>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>230000</ForceMagnitude>
+            <ForceMagnitude>299000</ForceMagnitude>
             <MaxPowerConsumption>1</MaxPowerConsumption>
             <MinPowerConsumption>0.000002</MinPowerConsumption>
             <SlowdownFactor>1</SlowdownFactor>
@@ -1625,9 +1625,9 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockLargeFlatAtmosphericThrust</SubtypeId>
+                <SubtypeId>LargeBlockLargeFlatAtmosphericThrustEnhanced</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Block_LargeAtmoThrustFlat</DisplayName>
+            <DisplayName>Enhanced Large Flat Atmospheric Thruster</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\LargeFlatAtmosphericThrusterLarge.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
             <CubeSize>Large</CubeSize>
@@ -1675,7 +1675,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrustFlat</BlockPairName>
+            <BlockPairName>LargeAtmoThrustFlatEnhanced</BlockPairName>
             <Center x="1" y="1" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -1683,7 +1683,7 @@
             <BuildTimeSeconds>50</BuildTimeSeconds>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>2600000</ForceMagnitude>
+            <ForceMagnitude>3380000</ForceMagnitude>
             <MaxPowerConsumption>6.7</MaxPowerConsumption>
             <MinPowerConsumption>0.000002</MinPowerConsumption>
             <SlowdownFactor>1</SlowdownFactor>
