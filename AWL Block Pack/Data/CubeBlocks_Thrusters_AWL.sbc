@@ -1617,7 +1617,7 @@
         </Definition>
         <!--Enhanced Hydrogen Thrusters End-->
 
-		<!-- Enhanced Hydrogen Thrusters Scifi -->
+		<!-- Enhanced Hydrogen Thrusters Industrial -->
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
 			<Id>
 				<TypeId>Thrust</TypeId>
@@ -2021,7 +2021,7 @@
 			</TargetingGroups>
 			<DLC>HeavyIndustry</DLC>
 		</Definition>
-		<!--Enhanced Hydrogen Thrusters Scifi End-->
+		<!--Enhanced Hydrogen Thrusters Industrial End-->
 
 	    <!-- Enhanced Atmo Thrusters -->
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
