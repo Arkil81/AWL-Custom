@@ -1,7 +1,7 @@
 # AWL-Custom
 A collection of custom mods for the AWL server
 
-AWL Block Pack - Contains custom blocks, not necessarily viable without an ES-Technology Settings file
+AWL Block Pack - Contains custom blocks, not necessarily viable without an ES-Technology Settings file. I'm not tuning the recipes in the .sbcs because they're overridden in ES config
 
 ES Settings - Contains the settings files needed
 
