@@ -67,5 +67,81 @@
 			  <string>Thrust/LargeBlockLargeModularThrusterEnhanced</string>
 		  </ItemIds>
 	</Category>
+	  <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+		  <Id>
+			  <TypeId>GuiBlockCategoryDefinition</TypeId>
+			  <SubtypeId>AWL_Hydro_Thrusters</SubtypeId>
+		  </Id>
+		  <DisplayName>Hydrogen Thrusters</DisplayName>
+		  <Name>HydroThrusters</Name>
+		  <SearchBlocks>true</SearchBlocks>
+		  <IsShipCategory>true</IsShipCategory>
+		  <IsBlockCategory>true</IsBlockCategory>
+		  <IsToolCategory>false</IsToolCategory>
+		  <ItemIds>
+			  <string>Thrust/SmallBlockSmallHydrogenThrust</string>
+			  <string>Thrust/LargeBlockSmallHydrogenThrust</string>
+			  <string>Thrust/SmallBlockLargeHydrogenThrust</string>
+			  <string>Thrust/LargeBlockLargeHydrogenThrust</string>
+			  <string>Thrust/SmallBlockSmallHydrogenThrustIndustrial</string>
+			  <string>Thrust/LargeBlockSmallHydrogenThrustIndustrial</string>
+			  <string>Thrust/SmallBlockLargeHydrogenThrustIndustrial</string>
+			  <string>Thrust/LargeBlockLargeHydrogenThrustIndustrial</string>
+			  <string>Thrust/SmallBlockSmallHydrogenThrustEnhanced</string>
+			  <string>Thrust/LargeBlockSmallHydrogenThrustEnhanced</string>
+			  <string>Thrust/SmallBlockLargeHydrogenThrustEnhanced</string>
+			  <string>Thrust/LargeBlockLargeHydrogenThrustEnhanced</string>
+			  <string>Thrust/SmallBlockSmallHydrogenThrustIndustrialEnhanced</string>
+			  <string>Thrust/LargeBlockSmallHydrogenThrustIndustrialEnhanced</string>
+			  <string>Thrust/SmallBlockLargeHydrogenThrustIndustrialEnhanced</string>
+			  <string>Thrust/LargeBlockLargeHydrogenThrustIndustrialEnhanced</string>
+		  </ItemIds>
+	  </Category>
+	  <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+		  <Id>
+			  <TypeId>GuiBlockCategoryDefinition</TypeId>
+			  <SubtypeId>AWL_Atmo_Thrusters</SubtypeId>
+		  </Id>
+		  <DisplayName>Atmospheric Thrusters</DisplayName>
+		  <Name>AtmoThrusters</Name>
+		  <SearchBlocks>true</SearchBlocks>
+		  <IsShipCategory>true</IsShipCategory>
+		  <IsBlockCategory>true</IsBlockCategory>
+		  <IsToolCategory>false</IsToolCategory>
+		  <ItemIds>
+			  <string>Thrust/SmallBlockSmallAtmosphericThrust</string>
+			  <string>Thrust/LargeBlockSmallAtmosphericThrust</string>
+			  <string>Thrust/SmallBlockLargeAtmosphericThrust</string>
+			  <string>Thrust/LargeBlockLargeAtmosphericThrust</string>
+			  <string>Thrust/SmallBlockSmallAtmosphericThrustSciFi</string>
+			  <string>Thrust/LargeBlockSmallAtmosphericThrustSciFi</string>
+			  <string>Thrust/SmallBlockLargeAtmosphericThrustSciFi</string>
+			  <string>Thrust/LargeBlockLargeAtmosphericThrustSciFi</string>
+			  <string>Thrust/SmallBlockSmallFlatAtmosphericThrust</string>
+			  <string>Thrust/LargeBlockSmallFlatAtmosphericThrust</string>
+			  <string>Thrust/SmallBlockLargeFlatAtmosphericThrust</string>
+			  <string>Thrust/LargeBlockLargeFlatAtmosphericThrust</string>
+			  <string>Thrust/SmallBlockSmallFlatAtmosphericThrustDShape</string>
+			  <string>Thrust/LargeBlockSmallFlatAtmosphericThrustDShape</string>
+			  <string>Thrust/SmallBlockLargeFlatAtmosphericThrustDShape</string>
+			  <string>Thrust/LargeBlockLargeFlatAtmosphericThrustDShape</string>
+			  <string>Thrust/SmallBlockSmallAtmosphericThrustEnhanced</string>
+			  <string>Thrust/LargeBlockSmallAtmosphericThrustEnhanced</string>
+			  <string>Thrust/SmallBlockLargeAtmosphericThrustEnhanced</string>
+			  <string>Thrust/LargeBlockLargeAtmosphericThrustEnhanced</string>
+			  <string>Thrust/SmallBlockSmallAtmosphericThrustSciFiEnhanced</string>
+			  <string>Thrust/LargeBlockSmallAtmosphericThrustSciFiEnhanced</string>
+			  <string>Thrust/SmallBlockLargeAtmosphericThrustSciFiEnhanced</string>
+			  <string>Thrust/LargeBlockLargeAtmosphericThrustSciFiEnhanced</string>
+			  <string>Thrust/SmallBlockSmallFlatAtmosphericThrustEnhanced</string>
+			  <string>Thrust/LargeBlockSmallFlatAtmosphericThrustEnhanced</string>
+			  <string>Thrust/SmallBlockLargeFlatAtmosphericThrustEnhanced</string>
+			  <string>Thrust/LargeBlockLargeFlatAtmosphericThrustEnhanced</string>
+			  <string>Thrust/SmallBlockSmallFlatAtmosphericThrustDShapeEnhanced</string>
+			  <string>Thrust/LargeBlockSmallFlatAtmosphericThrustDShapeEnhanced</string>
+			  <string>Thrust/SmallBlockLargeFlatAtmosphericThrustDShapeEnhanced</string>
+			  <string>Thrust/LargeBlockLargeFlatAtmosphericThrustDShapeEnhanced</string>
+		  </ItemIds>
+	  </Category>
   </CategoryClasses>
 </Definitions>
