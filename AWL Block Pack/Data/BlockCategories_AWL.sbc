@@ -29,6 +29,30 @@
         <string>Drill/SmallBlockDrillElite</string>
       </ItemIds>
     </Category>
+	<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+		  <Id>
+			  <TypeId>GuiBlockCategoryDefinition</TypeId>
+			  <SubtypeId/>
+		  </Id>
+		  <DisplayName>DisplayName_Category_Production</DisplayName>
+		  <Name>Production</Name>
+		  <StrictSearch>true</StrictSearch>
+		  <ItemIds>
+			  <string>Refinery/LargeRefinery</string>
+			  <string>Refinery/LargeRefineryEnhanced</string>
+			  <string>Refinery/LargeRefineryIndustrial</string>
+			  <string>Refinery/LargeRefineryIndustrialEnhanced</string>
+			  <string>Refinery/Blast Furnace</string>
+			  <string>Refinery/Blast Furnace Enhanced</string>
+			  <string>Assembler/BasicAssembler</string>
+			  <string>Assembler/LargeAssembler</string>
+			  <string>Assembler/LargeAssemblerIndustrial</string>
+			  <string>Projector/LargeProjector</string>
+			  <string>OxygenGenerator/(null)</string>
+			  <string>SurvivalKit/SurvivalKit</string>
+			  <string>SurvivalKit/SurvivalKitLarge</string>
+		  </ItemIds>
+	</Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
 		  <Id>
 			  <TypeId>GuiBlockCategoryDefinition</TypeId>
