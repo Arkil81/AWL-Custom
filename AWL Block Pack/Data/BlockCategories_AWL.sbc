@@ -27,5 +27,43 @@
         <string>Drill/SmallBlockDrillElite</string>
       </ItemIds>
     </Category>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+		  <Id>
+			  <TypeId>GuiBlockCategoryDefinition</TypeId>
+			  <SubtypeId>AWL_Ion_Thrusters</SubtypeId>
+		  </Id>
+		  <DisplayName>Ion Thrusters</DisplayName>
+		  <Name>IonThrusters</Name>
+		  <SearchBlocks>true</SearchBlocks>
+		  <IsShipCategory>true</IsShipCategory>
+		  <IsBlockCategory>true</IsBlockCategory>
+		  <IsToolCategory>false</IsToolCategory>
+		  <ItemIds>
+			  <string>Thrust/SmallBlockSmallThrust</string>
+			  <string>Thrust/LargeBlockSmallThrust</string>
+			  <string>Thrust/SmallBlockLargeThrust</string>
+			  <string>Thrust/LargeBlockLargeThrust</string>
+			  <string>Thrust/SmallBlockSmallThrustSciFi</string>
+			  <string>Thrust/LargeBlockSmallThrustSciFi</string>
+			  <string>Thrust/SmallBlockLargeThrustSciFi</string>
+			  <string>Thrust/LargeBlockLargeThrustSciFi</string>
+			  <string>Thrust/SmallBlockSmallModularThruster</string>
+			  <string>Thrust/LargeBlockSmallModularThruster</string>
+			  <string>Thrust/SmallBlockLargeModularThruster</string>
+			  <string>Thrust/LargeBlockLargeModularThruster</string>
+			  <string>Thrust/SmallBlockSmallThrustEnhanced</string>
+			  <string>Thrust/LargeBlockSmallThrustEnhanced</string>
+			  <string>Thrust/SmallBlockLargeThrustEnhanced</string>
+			  <string>Thrust/LargeBlockLargeThrustEnhanced</string>
+			  <string>Thrust/SmallBlockSmallThrustSciFiEnhanced</string>
+			  <string>Thrust/LargeBlockSmallThrustSciFiEnhanced</string>
+			  <string>Thrust/SmallBlockLargeThrustSciFiEnhanced</string>
+			  <string>Thrust/LargeBlockLargeThrustSciFiEnhanced</string>
+			  <string>Thrust/SmallBlockSmallModularThrusterEnhanced</string>
+			  <string>Thrust/LargeBlockSmallModularThrusterEnhanced</string>
+			  <string>Thrust/SmallBlockLargeModularThrusterEnhanced</string>
+			  <string>Thrust/LargeBlockLargeModularThrusterEnhanced</string>
+		  </ItemIds>
+	</Category>
   </CategoryClasses>
 </Definitions>
