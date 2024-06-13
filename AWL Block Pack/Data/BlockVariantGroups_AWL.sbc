@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <BlockVariantGroups>
-
         <!-- Ship Tools -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ShipToolGroup" />
@@ -26,10 +25,10 @@
 
 		<!-- Thrusters -->
 		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ThrusterGroup" />
+			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AWLThrusterGroupIon" />
 			<Icon>Textures\GUI\Icons\Cubes\thrust.dds</Icon>
-			<DisplayName>Thrusters</DisplayName>
-			<Description>Ship thrusters</Description>
+			<DisplayName>Ion Thrusters</DisplayName>
+			<Description>Ion Ship thrusters</Description>
 			<Blocks>
 				<Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallThrust" />
 				<Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
