@@ -74,15 +74,15 @@
             <FlameDamage>0.1</FlameDamage>
             <FlameLengthScale>1.4</FlameLengthScale>
             <FlameIdleColor>
-                <X>0.2745098</X>
-                <Y>0.4090196</Y>
-                <Z>0.6505882</Z>
+                <X>0.1</X>
+                <Y>0.6</Y>
+                <Z>0.7</Z>
                 <W>0.75</W>
             </FlameIdleColor>
             <FlameFullColor>
-                <X>0.2745098</X>
-                <Y>0.4090196</Y>
-                <Z>0.6505882</Z>
+                <X>0.1</X>
+                <Y>0.6</Y>
+                <Z>0.7</Z>
                 <W>0.75</W>
             </FlameFullColor>
             <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
@@ -176,15 +176,15 @@
             <FlameDamageLengthScale>0.61</FlameDamageLengthScale>
             <FlameLengthScale>1.5</FlameLengthScale>
             <FlameIdleColor>
-                <X>0.2745098</X>
-                <Y>0.4090196</Y>
-                <Z>0.6505882</Z>
+                <X>0.1</X>
+                <Y>0.6</Y>
+                <Z>0.7</Z>
                 <W>0.75</W>
             </FlameIdleColor>
             <FlameFullColor>
-                <X>0.2745098</X>
-                <Y>0.4090196</Y>
-                <Z>0.6505882</Z>
+                <X>0.1</X>
+                <Y>0.6</Y>
+                <Z>0.7</Z>
                 <W>0.75</W>
             </FlameFullColor>
             <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
@@ -277,15 +277,15 @@
             <FlameDamage>0.2</FlameDamage>
             <FlameLengthScale>1.15</FlameLengthScale>
             <FlameIdleColor>
-                <X>0.2745098</X>
-                <Y>0.4090196</Y>
-                <Z>0.6505882</Z>
+                <X>0.1</X>
+                <Y>0.6</Y>
+                <Z>0.7</Z>
                 <W>0.75</W>
             </FlameIdleColor>
             <FlameFullColor>
-                <X>0.2745098</X>
-                <Y>0.4090196</Y>
-                <Z>0.6505882</Z>
+                <X>0.1</X>
+                <Y>0.6</Y>
+                <Z>0.7</Z>
                 <W>0.75</W>
             </FlameFullColor>
             <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
@@ -380,15 +380,15 @@
             <FlameDamageLengthScale>0.8</FlameDamageLengthScale>
             <FlameLengthScale>1.15</FlameLengthScale>
             <FlameIdleColor>
-                <X>0.2745098</X>
-                <Y>0.4090196</Y>
-                <Z>0.6505882</Z>
+                <X>0.1</X>
+                <Y>0.6</Y>
+                <Z>0.7</Z>
                 <W>0.75</W>
             </FlameIdleColor>
             <FlameFullColor>
-                <X>0.2745098</X>
-                <Y>0.4090196</Y>
-                <Z>0.6505882</Z>
+                <X>0.1</X>
+                <Y>0.6</Y>
+                <Z>0.7</Z>
                 <W>0.75</W>
             </FlameFullColor>
             <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
@@ -483,18 +483,18 @@
 			<FlameDamageLengthScale>0.36</FlameDamageLengthScale>
 			<FlameDamage>0.1</FlameDamage>
 			<FlameLengthScale>1.4</FlameLengthScale>
-			<FlameIdleColor>
-				<X>0.1</X>
-				<Y>0.5</Y>
-				<Z>0.8</Z>
-				<W>0.75</W>
-			</FlameIdleColor>
-			<FlameFullColor>
-				<X>0.1</X>
-				<Y>0.8</Y>
-				<Z>0.8</Z>
-				<W>0.75</W>
-			</FlameFullColor>
+            <FlameIdleColor>
+                <X>0.1</X>
+                <Y>0.6</Y>
+                <Z>0.7</Z>
+                <W>0.75</W>
+            </FlameIdleColor>
+            <FlameFullColor>
+                <X>0.1</X>
+                <Y>0.6</Y>
+                <Z>0.7</Z>
+                <W>0.75</W>
+            </FlameFullColor>
 			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
 			<FlameLengthMaterial>SciFiEngineThrustMiddle</FlameLengthMaterial>
 			<FlameFlare>SmallGridSmallThruster</FlameFlare>
@@ -580,18 +580,18 @@
 
 			<FlameDamageLengthScale>0.61</FlameDamageLengthScale>
 			<FlameLengthScale>1.5</FlameLengthScale>
-			<FlameIdleColor>
-				<X>0.1</X>
-				<Y>0.5</Y>
-				<Z>0.8</Z>
-				<W>0.75</W>
-			</FlameIdleColor>
-			<FlameFullColor>
-				<X>0.1</X>
-				<Y>0.8</Y>
-				<Z>0.8</Z>
-				<W>0.75</W>
-			</FlameFullColor>
+            <FlameIdleColor>
+                <X>0.1</X>
+                <Y>0.6</Y>
+                <Z>0.7</Z>
+                <W>0.75</W>
+            </FlameIdleColor>
+            <FlameFullColor>
+                <X>0.1</X>
+                <Y>0.6</Y>
+                <Z>0.7</Z>
+                <W>0.75</W>
+            </FlameFullColor>
 			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
 			<FlameLengthMaterial>SciFiEngineThrustMiddle</FlameLengthMaterial>
 			<FlameFlare>LargeGridSmallThruster</FlameFlare>
@@ -676,18 +676,18 @@
 			<FlameDamageLengthScale>0.6</FlameDamageLengthScale>
 			<FlameDamage>0.2</FlameDamage>
 			<FlameLengthScale>1.15</FlameLengthScale>
-			<FlameIdleColor>
-				<X>0.1</X>
-				<Y>0.5</Y>
-				<Z>0.8</Z>
-				<W>0.75</W>
-			</FlameIdleColor>
-			<FlameFullColor>
-				<X>0.1</X>
-				<Y>0.8</Y>
-				<Z>0.8</Z>
-				<W>0.75</W>
-			</FlameFullColor>
+            <FlameIdleColor>
+                <X>0.1</X>
+                <Y>0.6</Y>
+                <Z>0.7</Z>
+                <W>0.75</W>
+            </FlameIdleColor>
+            <FlameFullColor>
+                <X>0.1</X>
+                <Y>0.6</Y>
+                <Z>0.7</Z>
+                <W>0.75</W>
+            </FlameFullColor>
 			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
 			<FlameLengthMaterial>SciFiEngineThrustMiddle</FlameLengthMaterial>
 			<FlameFlare>SmallGridLargeThruster</FlameFlare>
@@ -774,18 +774,18 @@
 
 			<FlameDamageLengthScale>0.8</FlameDamageLengthScale>
 			<FlameLengthScale>1.15</FlameLengthScale>
-			<FlameIdleColor>
-				<X>0.1</X>
-				<Y>0.5</Y>
-				<Z>0.8</Z>
-				<W>0.75</W>
-			</FlameIdleColor>
-			<FlameFullColor>
-				<X>0.1</X>
-				<Y>0.8</Y>
-				<Z>0.8</Z>
-				<W>0.75</W>
-			</FlameFullColor>
+            <FlameIdleColor>
+                <X>0.1</X>
+                <Y>0.6</Y>
+                <Z>0.7</Z>
+                <W>0.75</W>
+            </FlameIdleColor>
+            <FlameFullColor>
+                <X>0.1</X>
+                <Y>0.6</Y>
+                <Z>0.7</Z>
+                <W>0.75</W>
+            </FlameFullColor>
 			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
 			<FlameLengthMaterial>SciFiEngineThrustMiddle</FlameLengthMaterial>
 			<FlameFlare>LargeGridLargeThruster</FlameFlare>
@@ -874,18 +874,18 @@
 			<FlameDamageLengthScale>0.36</FlameDamageLengthScale>
 			<FlameDamage>0.1</FlameDamage>
 			<FlameLengthScale>1.6</FlameLengthScale>
-			<FlameIdleColor>
-				<X>0.1</X>
-				<Y>0.5</Y>
-				<Z>0.8</Z>
-				<W>0.75</W>
-			</FlameIdleColor>
-			<FlameFullColor>
-				<X>0.1</X>
-				<Y>0.8</Y>
-				<Z>0.8</Z>
-				<W>0.75</W>
-			</FlameFullColor>
+            <FlameIdleColor>
+                <X>0.1</X>
+                <Y>0.6</Y>
+                <Z>0.7</Z>
+                <W>0.75</W>
+            </FlameIdleColor>
+            <FlameFullColor>
+                <X>0.1</X>
+                <Y>0.6</Y>
+                <Z>0.7</Z>
+                <W>0.75</W>
+            </FlameFullColor>
 			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
 			<FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
 			<FlameFlare>SmallGridSmallThruster</FlameFlare>
@@ -971,18 +971,18 @@
 
 			<FlameDamageLengthScale>0.61</FlameDamageLengthScale>
 			<FlameLengthScale>1.5</FlameLengthScale>
-			<FlameIdleColor>
-				<X>0.1</X>
-				<Y>0.5</Y>
-				<Z>0.8</Z>
-				<W>0.75</W>
-			</FlameIdleColor>
-			<FlameFullColor>
-				<X>0.1</X>
-				<Y>0.8</Y>
-				<Z>0.8</Z>
-				<W>0.75</W>
-			</FlameFullColor>
+            <FlameIdleColor>
+                <X>0.1</X>
+                <Y>0.6</Y>
+                <Z>0.7</Z>
+                <W>0.75</W>
+            </FlameIdleColor>
+            <FlameFullColor>
+                <X>0.1</X>
+                <Y>0.6</Y>
+                <Z>0.7</Z>
+                <W>0.75</W>
+            </FlameFullColor>
 			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
 			<FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
 			<FlameFlare>LargeGridSmallThruster</FlameFlare>
@@ -1071,18 +1071,18 @@
 			<FlameDamageLengthScale>0.6</FlameDamageLengthScale>
 			<FlameDamage>0.2</FlameDamage>
 			<FlameLengthScale>1.1</FlameLengthScale>
-			<FlameIdleColor>
-				<X>0.1</X>
-				<Y>0.5</Y>
-				<Z>0.8</Z>
-				<W>0.75</W>
-			</FlameIdleColor>
-			<FlameFullColor>
-				<X>0.1</X>
-				<Y>0.8</Y>
-				<Z>0.8</Z>
-				<W>0.75</W>
-			</FlameFullColor>
+            <FlameIdleColor>
+                <X>0.1</X>
+                <Y>0.6</Y>
+                <Z>0.7</Z>
+                <W>0.75</W>
+            </FlameIdleColor>
+            <FlameFullColor>
+                <X>0.1</X>
+                <Y>0.6</Y>
+                <Z>0.7</Z>
+                <W>0.75</W>
+            </FlameFullColor>
 			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
 			<FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
 			<FlameFlare>SmallGridLargeThruster</FlameFlare>
@@ -1171,18 +1171,18 @@
 
 			<FlameDamageLengthScale>0.8</FlameDamageLengthScale>
 			<FlameLengthScale>1.15</FlameLengthScale>
-			<FlameIdleColor>
-				<X>0.1</X>
-				<Y>0.5</Y>
-				<Z>0.8</Z>
-				<W>0.75</W>
-			</FlameIdleColor>
-			<FlameFullColor>
-				<X>0.1</X>
-				<Y>0.8</Y>
-				<Z>0.8</Z>
-				<W>0.75</W>
-			</FlameFullColor>
+            <FlameIdleColor>
+                <X>0.1</X>
+                <Y>0.6</Y>
+                <Z>0.7</Z>
+                <W>0.75</W>
+            </FlameIdleColor>
+            <FlameFullColor>
+                <X>0.1</X>
+                <Y>0.6</Y>
+                <Z>0.7</Z>
+                <W>0.75</W>
+            </FlameFullColor>
 			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
 			<FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
 			<FlameFlare>LargeGridLargeThruster</FlameFlare>
