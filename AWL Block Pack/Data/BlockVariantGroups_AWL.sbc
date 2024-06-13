@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <BlockVariantGroups>
+		
         <!-- Ship Tools -->
+		
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ShipToolGroup" />
             <Icon>Textures\GUI\Icons\Cubes\Grinder.dds</Icon>
@@ -24,6 +26,8 @@
         </BlockVariantGroup>
 
 		<!-- Thrusters -->
+		
+		<!-- Ion Thrusters -->
 		<BlockVariantGroup>
 			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AWLThrusterGroupIon" />
 			<Icon>Textures\GUI\Icons\Cubes\thrust.dds</Icon>
@@ -55,6 +59,84 @@
 				<Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeModularThrusterEnhanced" />
 				<Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeModularThrusterEnhanced" />
 			</Blocks>
-		</BlockVariantGroup>		
+		</BlockVariantGroup>
+		
+		<!-- Hydro Thrusters -->
+		<BlockVariantGroup>
+			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AWLThrusterGroupHydro" />
+			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterSmall.dds</Icon>
+			<DisplayName>Hydrogen Thrusters</DisplayName>
+			<Description>Hydrogen Ship thrusters</Description>
+			<Blocks>
+				<Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallHydrogenThrust" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrust" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeHydrogenThrust" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrust" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallHydrogenThrustIndustrial" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrustIndustrial" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeHydrogenThrustIndustrial" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrustIndustrial" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallHydrogenThrustEnhanced" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrustEnhanced" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeHydrogenThrustEnhanced" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrustEnhanced" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallHydrogenThrustIndustrialEnhanced" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrustIndustrialEnhanced" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeHydrogenThrustIndustrialEnhanced" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrustIndustrialEnhanced" />
+			</Blocks>
+		</BlockVariantGroup>
+
+		<!-- Atmo Thrusters -->
+		<BlockVariantGroup>
+			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AWLThrusterGroupAtmo" />
+			<Icon>Textures\GUI\Icons\Cubes\AtmosphericThrusterSmall.dds</Icon>
+			<DisplayName>Atmospheric Thrusters</DisplayName>
+			<Description>Atmospheric Ship thrusters</Description>
+			<Blocks>
+				<Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallAtmosphericThrust" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallAtmosphericThrust" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeAtmosphericThrust" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeAtmosphericThrust" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallAtmosphericThrustSciFi" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallAtmosphericThrustSciFi" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeAtmosphericThrustSciFi" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeAtmosphericThrustSciFi" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallAtmosphericThrustEnhanced" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallAtmosphericThrustEnhanced" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeAtmosphericThrustEnhanced" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeAtmosphericThrustEnhanced" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallAtmosphericThrustSciFiEnhanced" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallAtmosphericThrustSciFiEnhanced" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeAtmosphericThrustSciFiEnhanced" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeAtmosphericThrustSciFiEnhanced" />
+			</Blocks>
+		</BlockVariantGroup>
+
+		<!-- Flat Atmo Thrusters -->
+		<BlockVariantGroup>
+			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AWLThrusterGroupAtmoFlat" />
+			<Icon>Textures\GUI\Icons\Cubes\SmallFlatAtmosphericThrusterSmall.dds</Icon>
+			<DisplayName>Flat Atmospheric Thrusters</DisplayName>
+			<Description>Flat Atmospheric Ship thrusters</Description>
+			<Blocks>
+				<Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallFlatAtmosphericThrust" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallFlatAtmosphericThrust" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeFlatAtmosphericThrust" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeFlatAtmosphericThrust" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallFlatAtmosphericThrustDShape" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallFlatAtmosphericThrustDShape" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeFlatAtmosphericThrustDShape" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeFlatAtmosphericThrustDShape" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallFlatAtmosphericThrustEnhanced" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallFlatAtmosphericThrustEnhanced" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeFlatAtmosphericThrustEnhanced" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeFlatAtmosphericThrustEnhanced" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallFlatAtmosphericThrustDShapeEnhanced" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallFlatAtmosphericThrustDShapeEnhanced" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeFlatAtmosphericThrustDShapeEnhanced" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeFlatAtmosphericThrustDShapeEnhanced" />
+			</Blocks>
+		</BlockVariantGroup>
     </BlockVariantGroups>
 </Definitions>
