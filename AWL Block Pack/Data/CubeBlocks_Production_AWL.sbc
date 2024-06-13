@@ -199,13 +199,13 @@
 				</MyUpgradeModuleInfo>
 				<MyUpgradeModuleInfo>
 					<UpgradeType>Effectiveness</UpgradeType>
-					<Modifier>1.41766001</Modifier>
-					<ModifierType>Multiplicative</ModifierType>
+					<Modifier>0.41766001</Modifier>
+					<ModifierType>Additive</ModifierType>
 				</MyUpgradeModuleInfo>
 				<MyUpgradeModuleInfo>
 					<UpgradeType>PowerEfficiency</UpgradeType>
-					<Modifier>0.61142225</Modifier>
-					<ModifierType>Multiplicative</ModifierType>
+					<Modifier>-0.3</Modifier>
+					<ModifierType>Additive</ModifierType>
 				</MyUpgradeModuleInfo>
 			</Upgrades>
 			<PrimarySound>BlockModuleProductivity</PrimarySound>
