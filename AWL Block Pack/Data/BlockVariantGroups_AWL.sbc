@@ -25,6 +25,23 @@
             </Blocks>
         </BlockVariantGroup>
 
+		<!-- Production -->
+		
+		<BlockVariantGroup>
+			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AWLRefineryGroup" />
+			<Icon>Textures\GUI\Icons\Cubes\refinery.dds</Icon>
+			<DisplayName>AWL Refinery</DisplayName>
+			<Description>Description_Refinery</Description>
+			<Blocks>
+				<Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefinery" />
+				<Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefineryEnhanced" />
+				<Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefineryIndustrial" />
+				<Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefineryIndustrialEnhanced" />
+				<Block Type="MyObjectBuilder_Refinery" Subtype="Blast Furnace" />
+				<Block Type="MyObjectBuilder_Refinery" Subtype="Blast Furnace Enhanced" />
+			</Blocks>
+		</BlockVariantGroup>
+
 		<!-- Thrusters -->
 		
 		<!-- Ion Thrusters -->
