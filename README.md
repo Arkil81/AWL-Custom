@@ -16,3 +16,4 @@ ES Settings - Contains the settings files needed
 * Enhanced atmo thruster variants, 30% higher thrust, 20% higher power consumption than previous tier (vanilla)
 * Enhanced refinery variants, 30% higher efficiency, speed and power consumption than previous tier (vanilla)
 * Enhanced overdrive upgrade, 30% higher efficiency, speed and 20% worse power efficiency than previous tier (vanilla)
+* Enhanced ore detectors, 30% higher range than previous tier (vanilla)
