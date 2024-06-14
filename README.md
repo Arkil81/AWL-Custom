@@ -5,11 +5,12 @@ AWL Block Pack - Contains custom blocks, not necessarily viable without an ES-Te
 
 ES Settings - Contains the settings files needed
 
-## Current customizations in effect
-Released:
+## Releases
+1.0.1.0:
 * Enhanced, Proficient, Elite variants of ship drills, with a 0.5m increase in drill radius each tier
 
-In development:
+## Development
+1.1.0.0
 * Enhanced ion thruster variants, 30% higher thrust, 20% higher power consumption, greener color than previous tier (vanilla)
 * Enhanced hydro thruster variants, 30% higher thrust, 20% higher gas consumption, whiter color than previous tier (vanilla)
 * Enhanced atmo thruster variants, 30% higher thrust, 20% higher power consumption than previous tier (vanilla)
