@@ -57,7 +57,7 @@
             <StandbyPowerConsumption>0.0013</StandbyPowerConsumption>
             <OperationalPowerConsumption>0.728</OperationalPowerConsumption>
             <BlueprintClasses>
-                <Class>Ingots</Class>
+                <Class>Refinery_CommonMetals</Class>
             </BlueprintClasses>
             <RefineSpeed>1.69</RefineSpeed>
             <MaterialEfficiency>1.3</MaterialEfficiency>
@@ -149,7 +149,7 @@
 			<StandbyPowerConsumption>0.0013</StandbyPowerConsumption>
 			<OperationalPowerConsumption>0.728</OperationalPowerConsumption>
 			<BlueprintClasses>
-				<Class>Ingots</Class>
+				<Class>Refinery_CommonMetals</Class>
 			</BlueprintClasses>
 			<RefineSpeed>1.69</RefineSpeed>
 			<MaterialEfficiency>1.3</MaterialEfficiency>
@@ -223,7 +223,7 @@
             <StandbyPowerConsumption>0.0013</StandbyPowerConsumption>
             <OperationalPowerConsumption>0.429</OperationalPowerConsumption>
             <BlueprintClasses>
-                <Class>CommonMetals</Class>
+                <Class>BasicRefinery_CommonMetals</Class>
             </BlueprintClasses>
             <RefineSpeed>0.845</RefineSpeed>
             <MaterialEfficiency>0.91</MaterialEfficiency>
