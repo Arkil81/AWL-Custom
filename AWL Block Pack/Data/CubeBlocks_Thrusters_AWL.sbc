@@ -60,7 +60,7 @@
             <EdgeType>Light</EdgeType>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>18720</ForceMagnitude>
+            <ForceMagnitude>32760</ForceMagnitude>
             <MaxPowerConsumption>0.240</MaxPowerConsumption>
             <MinPowerConsumption>0.0000024</MinPowerConsumption>
             <SlowdownFactor>1</SlowdownFactor>
@@ -163,7 +163,7 @@
             <BuildTimeSeconds>40</BuildTimeSeconds>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>449280</ForceMagnitude>
+            <ForceMagnitude>786240</ForceMagnitude>
             <MaxPowerConsumption>4.032</MaxPowerConsumption>
             <MinPowerConsumption>0.0000024</MinPowerConsumption>
             <SlowdownFactor>1</SlowdownFactor>
@@ -263,7 +263,7 @@
             <EdgeType>Light</EdgeType>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>224640</ForceMagnitude>
+            <ForceMagnitude>393120</ForceMagnitude>
             <MaxPowerConsumption>2.88</MaxPowerConsumption>
             <MinPowerConsumption>0.0000024</MinPowerConsumption>
             <SlowdownFactor>1</SlowdownFactor>
@@ -367,7 +367,7 @@
             <BuildTimeSeconds>90</BuildTimeSeconds>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>5616000</ForceMagnitude>
+            <ForceMagnitude>9828000</ForceMagnitude>
             <MaxPowerConsumption>40.32</MaxPowerConsumption>
             <MinPowerConsumption>0.0000024</MinPowerConsumption>
             <SlowdownFactor>1</SlowdownFactor>
@@ -470,7 +470,7 @@
 			<EdgeType>Light</EdgeType>
 
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
-			<ForceMagnitude>18720</ForceMagnitude>
+			<ForceMagnitude>32760</ForceMagnitude>
 			<MaxPowerConsumption>0.240</MaxPowerConsumption>
 			<MinPowerConsumption>0.0000024</MinPowerConsumption>
 			<SlowdownFactor>1</SlowdownFactor>
@@ -568,7 +568,7 @@
 			<BuildTimeSeconds>40</BuildTimeSeconds>
 
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
-			<ForceMagnitude>449280</ForceMagnitude>
+			<ForceMagnitude>786240</ForceMagnitude>
 			<MaxPowerConsumption>4.032</MaxPowerConsumption>
 			<MinPowerConsumption>0.0000024</MinPowerConsumption>
 			<SlowdownFactor>1</SlowdownFactor>
@@ -663,7 +663,7 @@
 			<EdgeType>Light</EdgeType>
 
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
-			<ForceMagnitude>224640</ForceMagnitude>
+			<ForceMagnitude>393120</ForceMagnitude>
 			<MaxPowerConsumption>2.88</MaxPowerConsumption>
 			<MinPowerConsumption>0.0000024</MinPowerConsumption>
 			<SlowdownFactor>1</SlowdownFactor>
@@ -762,7 +762,7 @@
 			<BuildTimeSeconds>90</BuildTimeSeconds>
 
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
-			<ForceMagnitude>5616000</ForceMagnitude>
+			<ForceMagnitude>9828000</ForceMagnitude>
 			<MaxPowerConsumption>40.32</MaxPowerConsumption>
 			<MinPowerConsumption>0.0000024</MinPowerConsumption>
 			<SlowdownFactor>1</SlowdownFactor>
@@ -861,7 +861,7 @@
 			<EdgeType>Light</EdgeType>
 
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
-			<ForceMagnitude>18720</ForceMagnitude>
+			<ForceMagnitude>32760</ForceMagnitude>
 			<MaxPowerConsumption>0.240</MaxPowerConsumption>
 			<MinPowerConsumption>0.0000024</MinPowerConsumption>
 			<SlowdownFactor>1</SlowdownFactor>
@@ -959,7 +959,7 @@
 			<BuildTimeSeconds>40</BuildTimeSeconds>
 
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
-			<ForceMagnitude>449280</ForceMagnitude>
+			<ForceMagnitude>786240</ForceMagnitude>
 			<MaxPowerConsumption>4.032</MaxPowerConsumption>
 			<MinPowerConsumption>0.0000024</MinPowerConsumption>
 			<SlowdownFactor>1</SlowdownFactor>
@@ -1058,7 +1058,7 @@
 			<EdgeType>Light</EdgeType>
 
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
-			<ForceMagnitude>224640</ForceMagnitude>
+			<ForceMagnitude>393120</ForceMagnitude>
 			<MaxPowerConsumption>2.88</MaxPowerConsumption>
 			<MinPowerConsumption>0.0000024</MinPowerConsumption>
 			<SlowdownFactor>1</SlowdownFactor>
@@ -1159,7 +1159,7 @@
 			<BuildTimeSeconds>90</BuildTimeSeconds>
 
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
-			<ForceMagnitude>5616000</ForceMagnitude>
+			<ForceMagnitude>9828000</ForceMagnitude>
 			<MaxPowerConsumption>40.32</MaxPowerConsumption>
 			<MinPowerConsumption>0.0000024</MinPowerConsumption>
 			<SlowdownFactor>1</SlowdownFactor>
@@ -1258,7 +1258,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>10</BuildTimeSeconds>
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>127920</ForceMagnitude>
+            <ForceMagnitude>223860</ForceMagnitude>
             <FuelConverter>
                 <FuelId>
                     <TypeId>GasProperties</TypeId>
@@ -1361,7 +1361,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>40</BuildTimeSeconds>
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>1404000</ForceMagnitude>
+            <ForceMagnitude>2457000</ForceMagnitude>
             <SlowdownFactor>1</SlowdownFactor>
             <FuelConverter>
                 <FuelId>
@@ -1475,7 +1475,7 @@
             <MaxPowerConsumption>0.72</MaxPowerConsumption>
             <MinPowerConsumption>0.0000000012</MinPowerConsumption>
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>624000</ForceMagnitude>
+            <ForceMagnitude>1092000</ForceMagnitude>
             <SlowdownFactor>1</SlowdownFactor>
             <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
             <FlameLengthScale>1.15</FlameLengthScale>
@@ -1578,7 +1578,7 @@
             <MaxPowerConsumption>9</MaxPowerConsumption>
             <MinPowerConsumption>0.0000000012</MinPowerConsumption>
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>9360000</ForceMagnitude>
+            <ForceMagnitude>16380000</ForceMagnitude>
             <SlowdownFactor>1</SlowdownFactor>
             <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
             <FlameLengthScale>1.15</FlameLengthScale>
@@ -1669,7 +1669,7 @@
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>10</BuildTimeSeconds>
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
-			<ForceMagnitude>127920</ForceMagnitude>
+			<ForceMagnitude>223860</ForceMagnitude>
 			<FuelConverter>
 				<FuelId>
 					<TypeId>GasProperties</TypeId>
@@ -1769,7 +1769,7 @@
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>40</BuildTimeSeconds>
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
-			<ForceMagnitude>1404000</ForceMagnitude>
+			<ForceMagnitude>2457000</ForceMagnitude>
 			<SlowdownFactor>1</SlowdownFactor>
 			<FuelConverter>
 				<FuelId>
@@ -1881,7 +1881,7 @@
 			<MaxPowerConsumption>0.72</MaxPowerConsumption>
 			<MinPowerConsumption>0.0000000012</MinPowerConsumption>
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
-			<ForceMagnitude>624000</ForceMagnitude>
+			<ForceMagnitude>1092000</ForceMagnitude>
 			<SlowdownFactor>1</SlowdownFactor>
 			<FlameDamageLengthScale>0.6</FlameDamageLengthScale>
 			<FlameLengthScale>1.15</FlameLengthScale>
@@ -1983,7 +1983,7 @@
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0000000012</MinPowerConsumption>
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
-			<ForceMagnitude>9360000</ForceMagnitude>
+			<ForceMagnitude>16380000</ForceMagnitude>
 			<SlowdownFactor>1</SlowdownFactor>
 			<FlameDamageLengthScale>0.6</FlameDamageLengthScale>
 			<FlameLengthScale>1.15</FlameLengthScale>
@@ -2081,7 +2081,7 @@
             <EdgeType>Light</EdgeType>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>124800</ForceMagnitude>
+            <ForceMagnitude>218400</ForceMagnitude>
             <MaxPowerConsumption>0.720</MaxPowerConsumption>
             <MinPowerConsumption>0.0000024</MinPowerConsumption>
             <SlowdownFactor>1</SlowdownFactor>
@@ -2194,7 +2194,7 @@
             <BuildTimeSeconds>40</BuildTimeSeconds>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>842400</ForceMagnitude>
+            <ForceMagnitude>1474200</ForceMagnitude>
             <MaxPowerConsumption>2.88</MaxPowerConsumption>
             <MinPowerConsumption>0.0000024</MinPowerConsumption>
             <SlowdownFactor>1</SlowdownFactor>
@@ -2304,7 +2304,7 @@
             <BuildTimeSeconds>20</BuildTimeSeconds>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>748800</ForceMagnitude>
+            <ForceMagnitude>1310400</ForceMagnitude>
             <MaxPowerConsumption>2.88</MaxPowerConsumption>
             <MinPowerConsumption>0.0000024</MinPowerConsumption>
             <SlowdownFactor>1</SlowdownFactor>
@@ -2414,7 +2414,7 @@
             <BuildTimeSeconds>90</BuildTimeSeconds>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>8424000</ForceMagnitude>
+            <ForceMagnitude>14742000</ForceMagnitude>
             <MaxPowerConsumption>20.16</MaxPowerConsumption>
             <MinPowerConsumption>0.0000024</MinPowerConsumption>
             <SlowdownFactor>1</SlowdownFactor>
@@ -2526,7 +2526,7 @@
 			<EdgeType>Light</EdgeType>
 
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
-			<ForceMagnitude>124800</ForceMagnitude>
+			<ForceMagnitude>218400</ForceMagnitude>
 			<MaxPowerConsumption>0.720</MaxPowerConsumption>
 			<MinPowerConsumption>0.0000024</MinPowerConsumption>
 			<SlowdownFactor>1</SlowdownFactor>
@@ -2634,7 +2634,7 @@
 			<BuildTimeSeconds>40</BuildTimeSeconds>
 
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
-			<ForceMagnitude>842400</ForceMagnitude>
+			<ForceMagnitude>1474200</ForceMagnitude>
 			<MaxPowerConsumption>2.88</MaxPowerConsumption>
 			<MinPowerConsumption>0.0000024</MinPowerConsumption>
 			<SlowdownFactor>1</SlowdownFactor>
@@ -2738,7 +2738,7 @@
 			<BuildTimeSeconds>20</BuildTimeSeconds>
 
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
-			<ForceMagnitude>748800</ForceMagnitude>
+			<ForceMagnitude>1310400</ForceMagnitude>
 			<MaxPowerConsumption>2.88</MaxPowerConsumption>
 			<MinPowerConsumption>0.0000024</MinPowerConsumption>
 			<SlowdownFactor>1</SlowdownFactor>
@@ -2843,7 +2843,7 @@
 			<BuildTimeSeconds>90</BuildTimeSeconds>
 
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
-			<ForceMagnitude>6480000</ForceMagnitude>
+			<ForceMagnitude>14742000</ForceMagnitude>
 			<MaxPowerConsumption>20.16</MaxPowerConsumption>
 			<MinPowerConsumption>0.0000024</MinPowerConsumption>
 			<SlowdownFactor>1</SlowdownFactor>
@@ -2956,7 +2956,7 @@
             <EdgeType>Light</EdgeType>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>41600</ForceMagnitude>
+            <ForceMagnitude>72800</ForceMagnitude>
             <MaxPowerConsumption>0.240</MaxPowerConsumption>
             <MinPowerConsumption>0.0000024</MinPowerConsumption>
             <SlowdownFactor>1</SlowdownFactor>
@@ -3073,7 +3073,7 @@
             <BuildTimeSeconds>25</BuildTimeSeconds>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>260000</ForceMagnitude>
+            <ForceMagnitude>455000</ForceMagnitude>
             <MaxPowerConsumption>0.96</MaxPowerConsumption>
             <MinPowerConsumption>0.0000024</MinPowerConsumption>
             <SlowdownFactor>1</SlowdownFactor>
@@ -3188,7 +3188,7 @@
             <BuildTimeSeconds>15</BuildTimeSeconds>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>299000</ForceMagnitude>
+            <ForceMagnitude>523250</ForceMagnitude>
             <MaxPowerConsumption>1.2</MaxPowerConsumption>
             <MinPowerConsumption>0.0000024</MinPowerConsumption>
             <SlowdownFactor>1</SlowdownFactor>
@@ -3303,7 +3303,7 @@
             <BuildTimeSeconds>50</BuildTimeSeconds>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>3380000</ForceMagnitude>
+            <ForceMagnitude>5915000</ForceMagnitude>
             <MaxPowerConsumption>8.04</MaxPowerConsumption>
             <MinPowerConsumption>0.0000024</MinPowerConsumption>
             <SlowdownFactor>1</SlowdownFactor>
@@ -3420,7 +3420,7 @@
             <EdgeType>Light</EdgeType>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>41600</ForceMagnitude>
+            <ForceMagnitude>72800</ForceMagnitude>
             <MaxPowerConsumption>0.240</MaxPowerConsumption>
             <MinPowerConsumption>0.0000024</MinPowerConsumption>
             <SlowdownFactor>1</SlowdownFactor>
@@ -3537,7 +3537,7 @@
             <BuildTimeSeconds>25</BuildTimeSeconds>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>260000</ForceMagnitude>
+            <ForceMagnitude>455000</ForceMagnitude>
             <MaxPowerConsumption>0.96</MaxPowerConsumption>
             <MinPowerConsumption>0.0000024</MinPowerConsumption>
             <SlowdownFactor>1</SlowdownFactor>
@@ -3652,7 +3652,7 @@
             <BuildTimeSeconds>15</BuildTimeSeconds>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>299000</ForceMagnitude>
+            <ForceMagnitude>523250</ForceMagnitude>
             <MaxPowerConsumption>1.2</MaxPowerConsumption>
             <MinPowerConsumption>0.0000024</MinPowerConsumption>
             <SlowdownFactor>1</SlowdownFactor>
@@ -3767,7 +3767,7 @@
             <BuildTimeSeconds>50</BuildTimeSeconds>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>3380000</ForceMagnitude>
+            <ForceMagnitude>5915000</ForceMagnitude>
             <MaxPowerConsumption>8.04</MaxPowerConsumption>
             <MinPowerConsumption>0.0000024</MinPowerConsumption>
             <SlowdownFactor>1</SlowdownFactor>
