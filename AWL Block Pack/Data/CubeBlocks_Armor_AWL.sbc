@@ -4162,7 +4162,7 @@
 			<PCU>1</PCU>
 			<PCUConsole>2</PCUConsole>
 		</Definition>
-
+		<!-- 1x1x1 CORNER SQUARE -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -4413,7 +4413,7 @@
 			<GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
 			<Model/>
 		</Definition>
-
+		<!-- 1x1x1 CORNER SQUARE INV -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -4676,7 +4676,7 @@
 			<GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
 			<Model/>
 		</Definition>
-
+		<!-- 1x1x1 HALF CORNER -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -4911,7 +4911,7 @@
 			<IsAirTight>false</IsAirTight>
 			<Model/>
 		</Definition>
-
+		<!-- 1x1x1 HALF SLOPE CORNER -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -5098,7 +5098,7 @@
 			<IsAirTight>false</IsAirTight>
 			<Model/>
 		</Definition>
-
+		<!-- 1x1x1 HALF SLOPE CORNER INV -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -5467,7 +5467,7 @@
 			<GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
 			<Model/>
 		</Definition>
-
+		<!-- 1x1x1 HALF SLOPE CORNER -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -5712,7 +5712,7 @@
 			<GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
 			<Model/>
 		</Definition>
-
+		<!-- 1x1x1 HALF SLOPE CORNER BASE -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -6003,7 +6003,7 @@
 			<GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
 			<Model/>
 		</Definition>
-
+		<!-- 1x1x1 HALF SLOPE INV -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -6344,7 +6344,7 @@
 			<GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
 			<Model/>
 		</Definition>
-
+		<!-- 1x1x1 SLOPE CORNER -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -6627,7 +6627,7 @@
 			<GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
 			<Model/>
 		</Definition>
-
+		<!-- 2x1x1 SLOPE CORNER BASE -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -6966,7 +6966,7 @@
 			<GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
 			<Model/>
 		</Definition>
-
+		<!-- 2x1x1 SLOPE CORNER TIP -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -7179,7 +7179,7 @@
 			<IsAirTight>false</IsAirTight>
 			<Model/>
 		</Definition>
-
+		<!-- 1x1x1 RAISED SLOPE CORNER -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -7490,7 +7490,7 @@
 			<MirroringZ>MinusHalfY</MirroringZ>
 			<PCUConsole>2</PCUConsole>
 		</Definition>
-
+		<!-- 1x1x1 SLOPE TRANSITION -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -7763,7 +7763,7 @@
 			<MirroringBlock>SmallBlockHeavyArmorSlopeTransitionMirrored</MirroringBlock>
 			<PCUConsole>2</PCUConsole>
 		</Definition>
-
+		<!-- 1x1x1 SLOPE TRANSITION BASE -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -8090,7 +8090,7 @@
 			<MirroringBlock>SmallBlockHeavyArmorSlopeTransitionBaseMirrored</MirroringBlock>
 			<PCUConsole>2</PCUConsole>
 		</Definition>
-
+		<!-- 1x1x1 SLOPE TRANSITION BASE MIRRORED -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -8417,7 +8417,7 @@
 			<MirroringBlock>SmallBlockHeavyArmorSlopeTransitionBase</MirroringBlock>
 			<PCUConsole>2</PCUConsole>
 		</Definition>
-
+		<!-- 1x1x1 SLOPE TRANSITION MIRRORED -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -8690,7 +8690,7 @@
 			<MirroringBlock>SmallBlockHeavyArmorSlopeTransition</MirroringBlock>
 			<PCUConsole>2</PCUConsole>
 		</Definition>
-
+		<!-- 1x1x1 SLOPE TRANSITION TIP -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -8939,7 +8939,7 @@
 			<PCUConsole>2</PCUConsole>
 			<IsAirTight>false</IsAirTight>
 		</Definition>
-
+		<!-- 1x1x1 SLOPE TRANSITION TIP MIRRORED -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -9188,7 +9188,7 @@
 			<PCUConsole>2</PCUConsole>
 			<IsAirTight>false</IsAirTight>
 		</Definition>
-
+		<!-- 1x1x1 SQUARE SLOPE CORNER BASE -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -9507,7 +9507,7 @@
 			<MirroringZ>MinusHalfY</MirroringZ>
 			<PCUConsole>2</PCUConsole>
 		</Definition>
-
+		<!-- 1x1x1 SQUARE SLOPE CORNER TIP -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -9758,7 +9758,7 @@
 			<MirroringZ>MinusHalfY</MirroringZ>
 			<PCUConsole>2</PCUConsole>
 		</Definition>
-
+		<!-- 1x1x1 SQUARE SLOPE CORNER TIP INV -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -10053,7 +10053,7 @@
 			<MirroringZ>MinusHalfY</MirroringZ>
 			<PCUConsole>2</PCUConsole>
 		</Definition>
-		
+		<!-- 1x1x1 PANEL -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -10128,7 +10128,7 @@
             <DisassembleRatio>2</DisassembleRatio>
             <PCU>1</PCU>
         </Definition>
-
+		<!-- 1x1x1 CENTER PANEL -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -10207,7 +10207,7 @@
             <DisassembleRatio>2</DisassembleRatio>
             <PCU>1</PCU>
         </Definition>
-
+		<!-- 1x1x1 SLOPE SIDE PANEL -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -10286,7 +10286,7 @@
             <PCU>1</PCU>
             <IsAirTight>false</IsAirTight>
         </Definition>
-
+		<!-- 1x1x1 SLOPE PANEL -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -10377,7 +10377,7 @@
             <PCU>1</PCU>
             <IsAirTight>true</IsAirTight>
         </Definition>
-
+		<!-- 1x1x1 HALF PANEL -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -10452,7 +10452,7 @@
             <PCU>1</PCU>
             <IsAirTight>false</IsAirTight>
         </Definition>
-
+		<!-- 1x1x1 HALF CENTER PANEL -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -10525,7 +10525,7 @@
             <PCU>1</PCU>
             <IsAirTight>false</IsAirTight>
         </Definition>
-
+		<!-- 1x1x1 QUARTER PANEL -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -10600,7 +10600,7 @@
             <PCU>1</PCU>
             <IsAirTight>false</IsAirTight>
         </Definition>
-
+		<!-- 2x1x1 SLOPE PANEL -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -10683,7 +10683,7 @@
             <PCU>1</PCU>
             <IsAirTight>true</IsAirTight>
         </Definition>
-
+		<!-- 2x1x1 SLOPE PANEL TIP -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -10766,7 +10766,7 @@
             <PCU>1</PCU>
             <IsAirTight>true</IsAirTight>
         </Definition>
-
+		<!-- 2x1x1 SLOPE SIDE PANEL BASE -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -10847,7 +10847,7 @@
             <PCU>1</PCU>
             <IsAirTight>false</IsAirTight>
         </Definition>
-
+		<!-- 2x1x1 SLOPE SIDE PANEL TIP -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -10926,7 +10926,7 @@
             <PCU>1</PCU>
             <IsAirTight>false</IsAirTight>
         </Definition>
-
+		<!-- 2x1x1 SLOPE SIDE PANEL BASE INV -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -11007,7 +11007,7 @@
             <PCU>1</PCU>
             <IsAirTight>false</IsAirTight>
         </Definition>
-
+		<!-- 2x1x1 SLOPE SIDE PANEL TIP INV -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -11086,7 +11086,7 @@
             <PCU>1</PCU>
             <IsAirTight>false</IsAirTight>
         </Definition>
-
+		<!-- 1x1x1 HALF SLOPE PANEL -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -11169,7 +11169,7 @@
             <PCU>1</PCU>
             <IsAirTight>false</IsAirTight>
         </Definition>
-
+		<!-- 2x1x1 HALF SLOPE PANEL RIGHT -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -11248,7 +11248,7 @@
             <PCU>1</PCU>
             <IsAirTight>false</IsAirTight>
         </Definition>
-
+		<!-- 2x1x1 HALF SLOPE PANEL TIP RIGHT -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -11327,7 +11327,7 @@
             <PCU>1</PCU>
             <IsAirTight>false</IsAirTight>
         </Definition>
-
+		<!-- 2x1x1 HALF SLOPE PANEL LEFT -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -11406,7 +11406,7 @@
             <PCU>1</PCU>
             <IsAirTight>false</IsAirTight>
         </Definition>
-
+		<!-- 2x1x1 HALF SLOPE PANEL TIP LEFT -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -11485,7 +11485,7 @@
             <PCU>1</PCU>
             <IsAirTight>false</IsAirTight>
         </Definition>
-
+		<!-- 1x1x1 ROUND PANEL -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -11576,7 +11576,7 @@
             <IsAirTight>true</IsAirTight>
             <PCU>1</PCU>
         </Definition>
-
+		<!-- 1x1x1 ROUND PANEL CORNER -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -11673,7 +11673,7 @@
             <DisassembleRatio>2</DisassembleRatio>
             <PCU>1</PCU>
         </Definition>
-
+		<!-- 1x1x1 ROUND PANEL FACE -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -11754,7 +11754,7 @@
             <IsAirTight>false</IsAirTight>
             <PCU>1</PCU>
         </Definition>
-
+		<!-- 1x1x1 ROUND PANEL CORNER INV -->
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
