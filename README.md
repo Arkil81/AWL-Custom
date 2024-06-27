@@ -19,3 +19,10 @@ ES Settings - Contains the settings files needed
 
 ## Development
 
+ES Beryllium, or Enhanced tier:
+* Enhanced Drill *DONE*
+* Enhanced thrusters *DONE*
+* Enhanced refineries *DONE*
+* Enhanced ore detectors *DONE*
+* (NEW BLOCK) Enhanced overdrive upgrade *DONE*
+* Beryllium armor (heavy armor variant) *IN PROGRESS*
